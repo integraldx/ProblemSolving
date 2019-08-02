@@ -1,10 +1,8 @@
-import sys
-
 importedHeaders = set()
 
 def PrintNewFile(filePath : str):
     f = open(filePath, 'r')
-    for s in f.readlines(99999):
+    for s in f.readlines():
         if s.startswith("#include "):
             s = s[9:]
             if s.startswith("\""):
