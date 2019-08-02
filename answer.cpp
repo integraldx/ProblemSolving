@@ -7,6 +7,7 @@
 #include <algorithm>
 #include <set>
 #include <list>
+#include "graph.hpp"
 
 using namespace std;
 
@@ -20,6 +21,7 @@ void init()
 int main()
 {
     init();
+
 
     cout.flush();
     return 0;
